@@ -12,6 +12,7 @@
 
 * {
     scroll-behavior: smooth;
+    @apply bg-[#202020]
 }
 
 @layer base {
