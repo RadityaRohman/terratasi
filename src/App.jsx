@@ -5,13 +5,15 @@ import FamousQuotes from "./sections/About/FamousQuotes/FamousQuotes";
 import Impact from "./sections/About/Impact/Impact";
 
 import Quotes from "./sections/About/Quotes/Quotes";
-import ReorderComponent from "./sections/About/Quotes/ReorderComponent";
-import VelocityScrollAnimation from "./sections/About/Quotes/VelocityScrollAnimation";
+import LeafDrawing from "./components/LeafDrawing";
 import TrashTypes from "./sections/About/TrashTypes/TrashTypes";
 import Contactt from "./sections/contact/Contactt";
 import Faq from "./sections/FAQ/Faq";
 import Hero from "./sections/Hero/Hero";
 import Konservasi from "./sections/Konservasi/Konservasi";
+import ChatBubble from "./components/ChatBubble";
+import Diff from "./components/Diff";
+import Tabs from "./components/Tabs";
 
 
 export default function App() {
@@ -49,8 +51,17 @@ export default function App() {
           </section>
         </section>
         <section>
-          {/* <ReorderComponent /> */}
+          <LeafDrawing />
         {/* <VelocityScrollAnimation /> */}
+        </section>
+        <section className="container">
+          <ChatBubble />
+        </section>
+        <section className="container">
+          <Diff />
+        </section>
+        <section className="container">
+        <Tabs />
         </section>
         <section className="mt-52">
           <Konservasi />
