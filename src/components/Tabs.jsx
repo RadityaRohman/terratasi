@@ -76,7 +76,7 @@ const Tabs = () => {
               <h2 className="text-4xl font-bold text-color-1 flex justify-center">Surabaya</h2>
               <br />
               <div className="md:flex items-center gap-4">
-                <img src="./src/assets/img/Tabs1.jpeg" className="rounded-xl mx-auto" alt="" />
+                <img src="./src/assets/img/Tabs3.jpeg" className="rounded-xl w-[25rem] mx-auto" alt="" />
                 <br />
                 <p className="text-color-1 md:text-left text-sm xl:text-lg md:text-md text-center">
                   Surabaya, sebagai kota terbesar kedua di Indonesia, juga menghadapi masalah serius terkait sampah. Program seperti "Surabaya Bersih" yang diperkenalkan oleh mantan Wali Kota Surabaya, Ibu Risma, telah mencoba untuk mengurangi dan mengelola sampah dengan lebih baik. Namun, tingkat produksi sampah yang tinggi tetap menjadi isu yang perlu diatasi secara berkelanjutan.

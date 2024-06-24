@@ -10,7 +10,7 @@ const Diff = () => {
   return (
     <div className="py-24">
       <br />
-      <div className="diff aspect-[16/9] rounded-xl">
+      <div className="diff aspect-[16/9] rounded-2xl">
         <motion.div
           ref={ref1}
           className="diff-item-1"
@@ -51,7 +51,7 @@ const Diff = () => {
         ref={ref3}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={inView3 ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 2 }}
         className="flex justify-center py-9"
       >
         <label className="swap swap-flip text-[6rem] md:text-[11rem]">
