@@ -18,6 +18,7 @@ import { useInView } from "react-intersection-observer";
 const Konservasi = () => {
 	const controls = useAnimation();
 
+
 	const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
 	const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: true });
 	const { ref: ref3, inView: inView3 } = useInView({ triggerOnce: true });
@@ -173,6 +174,7 @@ const Konservasi = () => {
 			</svg>
 		</>
 	);
+      
 };
 
 export default Konservasi;

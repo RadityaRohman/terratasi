@@ -6,7 +6,6 @@ import Dampak from "../dampak/Dampak";
 import Dampakk from "../dampak/Dampakk";
 
 const Faq = () => {
-  
   return (
     <div className="font-poppins">
       <div className="text-center text-color-1">
